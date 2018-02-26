@@ -73,10 +73,10 @@ postgres=# alter role catalog login;
 postgres=# grant all privileges on database catalog to catalog;
 ```
 - To login into database from user **grader@** when prompted to password enter 'catalog'
-- ```linux psql -U catalog -d catalog -h 127.0.0.1 -W```
+- ```psql -U catalog -d catalog -h 127.0.0.1 -W```
 
 ## Install git
-- ```linux sudo apt-get install git```
+- ```sudo apt-get install git```
 
 ## Deploy the application
 ```linux
