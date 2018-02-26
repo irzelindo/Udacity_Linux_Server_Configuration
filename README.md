@@ -6,6 +6,7 @@ the purpose is to configure & host a web application **(Item Catalog)** in a lin
 # The steps for completing the project are:
 1.  Start new Ubuntu Linux server instance **in this case was use [Amazon Lighsail](https://aws.amazon.com) to create the instance**
 2.  Follow the instructions provided to SSH into your server
+### Instance URl and IP ```http://ec2-18-197-75-198.eu-central-1.compute.amazonaws.com```   IP-Address ```18.197.75.198```
 3.  Create a new user named **grader** and give him sudo permissions
       ```linux
       sudo adduser grader
@@ -112,6 +113,9 @@ cd app
 - Enable the virtual host with the following command: ```sudo a2ensite app```
 
 ## Create app.wsgi and add the following:
+
+```sudo touch /var/www/app/app.wsgi```
+```sudo nano app.wsgi``` and add the following:
 
 ```python
 #!/usr/bin/python
