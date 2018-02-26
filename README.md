@@ -84,9 +84,9 @@ cd /var/www
 sudo mkdir app
 cd app
 ```
-- **Clone Item-Catalog-Application:** ```linux sudo git clone https://github.com/irzelindo/Item-Catalog-Application.git```
+- **Clone Item-Catalog-Application:** ```sudo git clone https://github.com/irzelindo/Item-Catalog-Application.git```
 - Give user grader the privileges to the files with chown and chgrp commands
-- **Install required dependencies:** ```linux sudo pip install -r requirements.txt```
+- **Install required dependencies:** ```sudo pip install -r requirements.txt```
 
 ## Configure and enable a new virtual host
 - Create a configuration file: sudo nano /etc/apache2/sites-available/app.conf and add the following
