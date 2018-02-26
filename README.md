@@ -109,7 +109,21 @@ cd app
   CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
 ```
+- Enable the virtual host with the following command: ```sudo a2ensite app```
 
+## Create app.wsgi and add the following:
 
+```python
+#!/usr/bin/python
+import sys
+import logging
+logging.basicConfig(stream=sys.stderr)
+sys.path.insert(0, "/var/www/app/app")
+
+from app import app as application
+application.secret_key = 'super_secret_key'
+```
+
+## run the app by following this link: [Item Catalog Application](http://ec2-18-197-75-198.eu-central-1.compute.amazonaws.com)
 
     
