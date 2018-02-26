@@ -39,9 +39,9 @@ the purpose is to configure & host a web application **(Item Catalog)** in a lin
 ## Configure UFW **(Uncomplicated Firewall)**
 ```linux
 sudo ufw allow ssh
-sudo ufw allow 2200/tcp **for ssh remote connection
-sudo ufw allow 80/tcp **for http remote connection
-sudo ufw allow 123/udp **for ntp remote connection
+sudo ufw allow 2200/tcp for ssh remote connection
+sudo ufw allow 80/tcp for http remote connection
+sudo ufw allow 123/udp for ntp remote connection
 sudo ufw enable
 ```
 
