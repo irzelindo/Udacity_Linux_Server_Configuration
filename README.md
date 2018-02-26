@@ -6,7 +6,7 @@ the purpose is to configure & host a web application **(Item Catalog)** in a lin
 # The steps for completing the project are:
 1.  Start new Ubuntu Linux server instance **in this case was use [Amazon Lighsail](https://aws.amazon.com) to create the instance**
 2.  Follow the instructions provided to SSH into your server
-### Instance URl and IP ```http://ec2-18-197-75-198.eu-central-1.compute.amazonaws.com```   IP-Address ```18.197.75.198```
+Instance URl and IP ```http://ec2-18-197-75-198.eu-central-1.compute.amazonaws.com```   IP-Address ```18.197.75.198```
 3.  Create a new user named **grader** and give him sudo permissions
       ```linux
       sudo adduser grader
@@ -129,5 +129,9 @@ application.secret_key = 'super_secret_key'
 ```
 
 ## run the app by following this link: [Item Catalog Application](http://ec2-18-197-75-198.eu-central-1.compute.amazonaws.com)
+
+## References
+(https://github.com/kongling893/Linux-Server-Configuration-UDACITY)
+(https://github.com/mkenlo/Linux-Server-Configuration)
 
     
