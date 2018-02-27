@@ -44,6 +44,7 @@ sudo ufw allow ssh
 sudo ufw allow 2200/tcp
 sudo ufw allow 80/tcp
 sudo ufw allow 123/udp
+sudo ufw delete allow 22
 sudo ufw enable
 ```
 
