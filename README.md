@@ -130,7 +130,7 @@ from app import app as application
 application.secret_key = 'super_secret_key'
 ```
 
-## run the app by following this link: [Item Catalog Application](http://ec2-18-197-75-198.eu-central-1.compute.amazonaws.com)
+## run the app by following this link: [www.mozvibe.com](http://ec2-18-197-75-198.eu-central-1.compute.amazonaws.com)
 
 ## References
 - https://github.com/kongling893/Linux-Server-Configuration-UDACITY
